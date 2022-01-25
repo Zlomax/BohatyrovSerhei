@@ -11,6 +11,5 @@ public class task2 {
         double pe = 3.1415;
         double S = pe*(r*r)*h;
         System.out.println("Volume of cylinder : "+S);
-
     }
 }
