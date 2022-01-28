@@ -12,17 +12,17 @@ public class task5 {
         double D =b * b - (4 * a * c);
         if (D>0)
         {
-            double x1 = (-b + D) / 2 * a;
-            double x2 = (-b - D) / 2 * a;
-            System.out.println(+x1);
-            System.out.println(+x2);
+            double x1 = (-b + Math.sqrt(D)) / 2 * a;
+            double x2 = (-b - Math.sqrt(D)) / 2 * a;
+            System.out.println(x1);
+            System.out.println(x2);
         }
         else{
             System.out.println("ERROR PLEASE ENTER OTHER NUMBERS");
         }
         if(D == 0)
         {
-            double xx = (-b + D) / 2 * a;
+            double xx = -b / 2 * a;
             System.out.println(xx);
         }
     }

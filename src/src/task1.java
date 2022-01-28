@@ -9,7 +9,7 @@ public class task1 {
         System.out.println("Enter number b:");
         double b = scanner.nextDouble();
         double c = a/b;
-        System.out.println("Result of devide: "+c);
+        System.out.println("Result of divide: "+c);
 
     }
 }
