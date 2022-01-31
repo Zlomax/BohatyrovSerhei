@@ -1,3 +1,5 @@
+package AdressTask;
+
 import java.util.Scanner;
 
 public class Position {
